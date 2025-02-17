@@ -37,7 +37,7 @@ params:
         url: "https://www.linkedin.com/in/jd-hagood-3053a0218/"
         title: LinkedIn
       - icon: fab fa-github
-        url: "https://github.com/jdhagood/keygenV2"
+        url: "https://github.com/jdhagood"
         title: GitHub
   showInAccordion:
     - item: aboutme
@@ -74,28 +74,28 @@ params:
     icon: fas fa-project-diagram
     list:
       - title: Automated Etch-a-Sketch
-        url: "/projects/etch_a_sketch/"
+        url: "./projects/etch_a_sketch/"
         description: Using AI to level up my etch-a-sketch drawing skills; Making a compact text to etch-a-sketch drawing robot.
 
 
 
 
       - title: Single Board Games
-        url: "/projects/single_board_games/"
+        url: "./projects/single_board_games/"
         description: Milling out PCBs to have fun with for hours; Making handheld PCB games with the ATtiny3226.
 
 
 
 
       - title: 3D Printed Clothes
-        url: "/projects/3d_printed_clothes/"
+        url: "./projects/3d_printed_clothes/"
         description: Pushing my 3D printing skills to the limit to have the coolest clothes at a party; Leveraging the under-extrusion of filament to create textiles.
 
 
 
 
       - title: "Educational 3D Printed Speaker Kits"
-        url: "/projects/speaker_kits/"
+        url: "test_site/projects/speaker_kits/"
         description: Utilizing the rapid manufacturing of 3D printers to create over 200 educational kits for students to build their own speakers for the MIT Spokes program.
 
 
