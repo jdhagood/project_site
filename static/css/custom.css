@@ -1,0 +1,71 @@
+img.floatleft, figure.floatleft {
+    max-width: 50%;  /* or any desired percentage */
+    height: auto;
+    float: left;
+    margin-right: 15px;  /* Adds space to the right of the floated image */
+}
+
+img.floatright, figure.floatright {
+    max-width: 50%;  /* or any desired percentage */
+    height: auto;
+    float: right;
+    margin-left: 15px;  /* Adds space to the left of the floated image */
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1px;
+}
+
+.image-grid figure {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.image-grid img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.image-grid figcaption {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #666;
+}
+
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.custom-table th, .custom-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.custom-table th {
+    background-color: #d809c7;
+    font-weight: bold;
+}
+
+.custom-table tr:nth-child(even) {
+    background-color: #bd1111;
+}
+
+.custom-table tr:hover {
+    background-color: #0e0303;
+}
+
+.video-container {
+    text-align: center;
+}
+
+.video-container video {
+    max-width: 100%;
+    height: auto;
+}

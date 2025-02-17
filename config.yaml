@@ -1,14 +1,14 @@
-baseURL: https://aafu.pages.dev/
+baseURL: "https://jdhagood.github.io/"
 languageCode: en-us
 build:
   writeStats: true
 params:
-  title: aafu theme
-  author: Darshan Baral
-  description: Website title
+  title: Project Portfolio
+  author: JD Hagood
+  description: JD Hagood's Personal Project Portfolio
   copyright: >-
     powered by [hugo](https://gohugo.io/) & deployed on
-    [Cloudflare](https://www.cloudflare.com/)
+    [GitHub Pages](https://pages.github.com/)
   theme:
     mainTheme: dark
     showAttribute: true
@@ -23,35 +23,22 @@ params:
               <link rel="mask-icon" href="safari-pinned-tab.svg" color="#252627">
               <link rel="shortcut icon" href="favicon.ico">
 
+
+
+
   profile:
-    name: "First Last, Abbr."
-    tagline: Title
-    location: "City Name, ST"
-    photo: profile.jpg
+    name: "JD Hagood"
+    tagline: Project Portfolio
+    photo: jd.jpg
   social:
     title: Links
     list:
       - icon: fab fa-linkedin-in
-        url: "#"
+        url: "https://www.linkedin.com/in/jd-hagood-3053a0218/"
         title: LinkedIn
-      - icon: fab fa-stack-overflow
-        url: "#"
-        title: StackOverflow
       - icon: fab fa-github
-        url: "#"
+        url: "https://github.com/jdhagood/keygenV2"
         title: GitHub
-      - icon: fab fa-twitter
-        url: "#"
-        title: Twitter
-      - icon: fab fa-orcid
-        url: "#"
-        title: Orcid
-      - icon: ai ai-google-scholar
-        url: "#"
-        title: Google Scholar
-      - icon: fab fa-researchgate
-        url: "#"
-        title: ResearchGate
   showInAccordion:
     - item: aboutme
       expand: true
@@ -64,107 +51,96 @@ params:
   aboutme:
     title: About Me
     icon: fas fa-user
-    description: This is a demo of the `aafu` theme. It has `light` and `dark` theme.
-  experience:
-    title: Experiences
-    icon: fas fa-briefcase
-    list:
-      - position: Job Title
-        dates: 2019 - *Present*
-        company: Company Name
-        details: |1-
-          - Printed from desktop. Sent [emails](#).
-              - Called people *using* telephone.
-          - Drank water from office cooler.
-          - Ate donuts on people's birthdays.
-      - position: Job Title
-        dates: 2018 - 2019
-        url: "#"
-        company: Company Name
+    description: My name is JD Hagood, and I am currently a Sophomore at the Massachusetts Institute of
+                 Technology studying electrical engineering with computer science. I like to spend
+                 my time in the maker spaces on campus turning my project ideas into reality. You can keep
+                 up with some of my recent projects on this website!
+
+
+
+
   education:
     title: Education
     icon: fas fa-graduation-cap
     list:
-      - degree: Ph.D. in Subject
-        college: University of State-City
-        dates: 2013 - 2018
-        thesis_title: "Effect of humans on other humans: a study of human behavior."
-        thesis_url: "#"
-      - degree: M.S. in Subject
-        college: University of State-City
-        dates: 2013 - 2018
-        thesis_title: "Effect of humans on other humans: a study of human behavior."
-        thesis_url: "#"
-      - degree: B.S. in Subject
-        college: University of State-City
-        dates: 2004 - 2009
-  publication:
-    title: Publications
-    icon: fas fa-book
-    format:
-      - date
-      - title
-      - authors
-      - journal
-    types:
-      - Journal Articles
-      - Proceedings
-    list:
-      - title: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        authors: "F Last, F Second, P secondary"
-        date: "2018"
-        journal: "Journal of Field 52 (16), 9033-9044"
-        url: "#"
-        type: Journal Articles
-      - title: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        authors: "F Last, F Second, P secondary"
-        date: "2018"
-        journal: "Journal of Field 52 (16), 9033-9044"
-        url: "#"
-        type: Journal Articles
-      - title: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        authors: "F Last, F Second, P secondary"
-        date: "2018"
-        journal: "Journal of Field 52 (16), 9033-9044"
-        url: "#"
-        type: Proceedings
+      - degree: Electrical Engineering with Computer Science
+        college: Massachusetts Institute of Technology
+        dates: 2023 - Present
+      - degree: Highschool Diploma
+        college: The Mississippi School for Math and Science
+        dates: 2021 - 2023
   project:
     title: Projects
     icon: fas fa-project-diagram
     list:
-      - title: Project 1
-        url: "#"
-        description: Description of the project
-      - title: Project 2
-        url: "#"
-        description: Description of the project
-      - title: Project 3
-        url: "#"
-        description: Description of the project
-      - title: Project 4
-        url: "#"
-        description: Description of the project
+      - title: Automated Etch-a-Sketch
+        url: "/projects/etch_a_sketch/"
+        description: Using AI to level up my etch-a-sketch drawing skills; Making a compact text to etch-a-sketch drawing robot.
+
+
+
+
+      - title: Single Board Games
+        url: "/projects/single_board_games/"
+        description: Milling out PCBs to have fun with for hours; Making handheld PCB games with the ATtiny3226.
+
+
+
+
+      - title: 3D Printed Clothes
+        url: "/projects/3d_printed_clothes/"
+        description: Pushing my 3D printing skills to the limit to have the coolest clothes at a party; Leveraging the under-extrusion of filament to create textiles.
+
+
+
+
+      - title: "Educational 3D Printed Speaker Kits"
+        url: "/projects/speaker_kits/"
+        description: Utilizing the rapid manufacturing of 3D printers to create over 200 educational kits for students to build their own speakers for the MIT Spokes program.
+
+
+
+
+      - title: Recept Poetry Robot
+        url: "/projects/poetry_robot/"
+        description: Using a thermal printer to print out poems on demand; Web Scraping poetryFoundation.org and putting poems on a receipt.
+
+
+
+
+      - title: NFC Pen Testing Glove
+        url: "/projects/nfc_glove/"
+        description: Using an arduino and MIFARE reader to display the security concerns of RFID tap systems on most college campuses.
+
+
+
+
   skill:
     title: Skills
     panelId: skill-panel
     icon: fas fa-cogs
     list:
-      - skill: "Skill 1, Skill 2"
+      - skill: Embedded Systems
         skillrating: 90
-      - skill: Skill 3
+      - skill: PCB Design
         skillrating: 80
-      - skill: Skill 4
-        skillrating: 50
+      - skill: Python Programming
+        skillrating: 90
+      - skill: C/C++ Programming
+        skillrating: 70
+      - skill: Onshape CAD
+        skillrating: 80
+      - skill: Digital Manufacturing Tools
+        skillrating: 80
+      - skill: Soldering
+        skillrating: 95
   hobby:
-    title: Hobbies
-    icon: fas fa-gamepad
+    title: Hobbies/Clubs
+    icon: fas fa-bicycle
     list:
-      - hobby: Cooking
-      - hobby: Hiking
-      - hobby: Baking
+      - hobby: Cycling
+      - hobby: Hiking with the MIT Outdoors Club
+      - hobby: Making
+      - hobby: MIT Solar Electric Vehicle Team
+ 
+  customCSS: "css/custom.css"
