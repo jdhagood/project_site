@@ -1,4 +1,4 @@
-baseURL: "jdhagood.github.io/test_site/"
+baseURL: "jdhagood.github.io"
 languageCode: en-us
 build:
   writeStats: true
@@ -94,7 +94,7 @@ params:
 
 
 
-      - title: "Educational 3D Printed Speaker Kits"
+      - title: "./Educational 3D Printed Speaker Kits"
         url: "test_site/projects/speaker_kits/"
         description: Utilizing the rapid manufacturing of 3D printers to create over 200 educational kits for students to build their own speakers for the MIT Spokes program.
 
@@ -102,14 +102,14 @@ params:
 
 
       - title: Recept Poetry Robot
-        url: "/projects/poetry_robot/"
+        url: "./projects/poetry_robot/"
         description: Using a thermal printer to print out poems on demand; Web Scraping poetryFoundation.org and putting poems on a receipt.
 
 
 
 
       - title: NFC Pen Testing Glove
-        url: "/projects/nfc_glove/"
+        url: "./projects/nfc_glove/"
         description: Using an arduino and MIFARE reader to display the security concerns of RFID tap systems on most college campuses.
 
 
