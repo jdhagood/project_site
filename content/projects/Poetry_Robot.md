@@ -8,7 +8,7 @@ categories = [
 ]
 +++
 
-The inspireation for this project came from my friend from Yale who really likes poetry. When I was talking to him about thermal printers on day, he got the idea to print poems on reciepts. I thought that this was a great idea and immediately hopped into Onshape. I designed a sheet metal enclosure for the device with a 3D printed sign on top encouraging users to press the big red button. You can check out the Onshape cad [here](https://cad.onshape.com/documents/cf3778deca11ee0736d88359/w/80c19d9216b3187a060b21ef/e/34e68baa4d9532f38bcb4871?renderMode=0&uiState=66f1c5994927d10f4adc73d7).
+The inspireation for this project came from my friend from Yale who really likes poetry. When I was talking to him about thermal printers one day, he got the idea to print poems on reciepts. I thought that this was a great idea and immediately hopped into Onshape. I designed a sheet metal enclosure for the device with a 3D printed sign on top encouraging users to press the big red button. You can check out the Onshape cad [here](https://cad.onshape.com/documents/cf3778deca11ee0736d88359/w/80c19d9216b3187a060b21ef/e/34e68baa4d9532f38bcb4871?renderMode=0&uiState=66f1c5994927d10f4adc73d7).
 
 {{< rawhtml >}}
     <figure>
