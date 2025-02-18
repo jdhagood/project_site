@@ -1,4 +1,4 @@
-baseURL: "jdhagood.github.io"
+baseURL: "jdhagood.github.io/test_site/"
 languageCode: en-us
 build:
   writeStats: true
@@ -94,8 +94,8 @@ params:
 
 
 
-      - title: "./Educational 3D Printed Speaker Kits"
-        url: "test_site/projects/speaker_kits/"
+      - title: Educational 3D Printed Speaker Kits
+        url: "./projects/speaker_kits/"
         description: Utilizing the rapid manufacturing of 3D printers to create over 200 educational kits for students to build their own speakers for the MIT Spokes program.
 
 

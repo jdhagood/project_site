@@ -19,7 +19,7 @@ You can find the hardware description language code for this board (and more) on
 
 {{< rawhtml >}}
     </figure>
-    <img src="/images/single_board_games/circle_pcb.jpg" alt="Profile Picture" class="floatright" style="width: 60%; height: auto; display: block; margin: 0 auto;">
+    <img src="/test_site/images/single_board_games/circle_pcb.jpg" alt="Profile Picture" class="floatright" style="width: 60%; height: auto; display: block; margin: 0 auto;">
     <figcaption>Complied from led_circle.js on my github</figcaption>
     </figure>
 {{< /rawhtml >}}
@@ -28,8 +28,8 @@ You can find the hardware description language code for this board (and more) on
  I first tried to download my gerber files directly from PCB-SVG, but it did not rotate each LED correctly. I had to download it as a Kicad file, open it in Kicad, and then download the gerber files from Kicad. With this small hiccup solved, I could then let the mill do the heavy lifting of milling my board.
 {{< rawhtml >}}
     <div class="image-grid">
-        <img src="/images/single_board_games/milled_board.jpg" alt="Image 1" style="width: 60%; height: auto; display: block; margin: 0 auto;">
-        <img src="/images/single_board_games/ready_to_be_soldered.jpg" alt="Image 1" style="width: 60%; height: auto; display: block; margin: 0 auto;">
+        <img src="/test_site/images/single_board_games/milled_board.jpg" alt="Image 1" style="width: 60%; height: auto; display: block; margin: 0 auto;">
+        <img src="/test_site/images/single_board_games/ready_to_be_soldered.jpg" alt="Image 1" style="width: 60%; height: auto; display: block; margin: 0 auto;">
     </div>
 {{< /rawhtml >}}
 It was now time to solder everything on the board. I absolutely love soldering surface mount components with solder paste, so I did this for all the components except for the ATtiny3226 because I was worried about shorting the pins with too much solder paste. I mainly used 1208 sized components, which may look small, but after soldering hundreds of 0805 components on the Solar Car team, 1208 was a breeze.
@@ -38,13 +38,13 @@ It was now time to solder everything on the board. I absolutely love soldering s
 I did forget to connect the ground pin of the ATtiny3226 to ground, but this was an easy fix as I only needed to short the ground pin to one of the large unconnect copper sections and then short this copper section to the circular ground track on the edge of the board.
 {{< rawhtml >}}
     <div class="image-grid">
-        <img src="/images/single_board_games/solder_paste.jpg" alt="Image 1" style="width: 60%; height: auto; display: block; margin: 0 auto;">
-        <img src="/images/single_board_games/soldered_board.jpg" alt="Image 1" style="width: 60%; height: auto; display: block; margin: 0 auto;">
+        <img src="/test_site/images/single_board_games/solder_paste.jpg" alt="Image 1" style="width: 60%; height: auto; display: block; margin: 0 auto;">
+        <img src="/test_site/images/single_board_games/soldered_board.jpg" alt="Image 1" style="width: 60%; height: auto; display: block; margin: 0 auto;">
     </div>
 {{< /rawhtml >}}
  
 {{< rawhtml >}}
-    <img src="/images/single_board_games/programming_board.jpg" alt="Profile Picture" class="floatright" style="width: 60%; height: auto; display: block; margin: 0 auto;">
+    <img src="/test_site/images/single_board_games/programming_board.jpg" alt="Profile Picture" class="floatright" style="width: 60%; height: auto; display: block; margin: 0 auto;">
 {{< /rawhtml >}}
 Now came the challenge of actually programming the board. I used the Arduino IDE to do this. I downloaded the megaTinyCore in my boards manager, connected an FTDI programmer to the UPDI pin of the ATtiny 3226, wrote a simple blink sketch, and pressed upload. I held my breath as it complied, but I was then hit with the error message "a programmer is needed to upload."
 
@@ -148,7 +148,7 @@ And ta-da, a working game.
 {{< rawhtml >}}
 <div style="margin-right: 15px;">
     <video width="700" controls>
-    <source src="/images/single_board_games/working_game.mp4" type="video/mp4">
+    <source src="/test_site/images/single_board_games/working_game.mp4" type="video/mp4">
     Your browser does not support the video tag.
     </video>
 </div>
@@ -157,7 +157,7 @@ This was fun to play with for a little while, but then I wanted to up the stakes
 {{< rawhtml >}}
 <div style="margin-right: 15px;">
     <video width="700" controls>
-    <source src="/images/single_board_games/taser.mp4" type="video/mp4">
+    <source src="/test_site/images/single_board_games/taser.mp4" type="video/mp4">
     Your browser does not support the video tag.
     </video>
 </div>
@@ -169,7 +169,7 @@ After the success of this board I knew that I could do better. There were some i
 
 {{< rawhtml >}}
     </figure>
-    <img src="/images/single_board_games/neopixel_pcb.jpg" alt="Profile Picture" class="floatright" style="width: 60%; height: auto; display: block; margin: 0 auto;">
+    <img src="/test_site/images/single_board_games/neopixel_pcb.jpg" alt="Profile Picture" class="floatright" style="width: 60%; height: auto; display: block; margin: 0 auto;">
     <figcaption>Compiled from neo_pixel_game.js on my github</figcaption>
     </figure>
 {{< /rawhtml >}}
@@ -180,7 +180,7 @@ I then milled out the board.
 
 {{< rawhtml >}}
     </figure>
-    <img src="/images/single_board_games/milled_neopixel_board.jpg" alt="Profile Picture" class="floatright" style="width: 60%; height: auto; display: block; margin: 0 auto;">
+    <img src="/test_site/images/single_board_games/milled_neopixel_board.jpg" alt="Profile Picture" class="floatright" style="width: 60%; height: auto; display: block; margin: 0 auto;">
     <figcaption></figcaption>
     </figure>
 {{< /rawhtml >}}
@@ -189,7 +189,7 @@ I then milled out the board.
 Next I populated and began programming it just as the last board. You can check out my code [here](https://github.com/jdhagood/attiny_2048/tree/master).
 {{< rawhtml >}}
     </figure>
-    <img src="/images/single_board_games/programming_neopixel_board.jpg" alt="Profile Picture" class="floatright" style="width: 60%; height: auto; display: block; margin: 0 auto;">
+    <img src="/test_site/images/single_board_games/programming_neopixel_board.jpg" alt="Profile Picture" class="floatright" style="width: 60%; height: auto; display: block; margin: 0 auto;">
     <figcaption></figcaption>
     </figure>
 {{< /rawhtml >}}
@@ -198,7 +198,7 @@ Next I populated and began programming it just as the last board. You can check 
 Finally, I was left with a small, hand held game. I am running the board off two AA batteries. Given the power consumption I measured from a power supply, the AA batteries should be able to power the device continuously for over 50 hours.
 {{< rawhtml >}}
     </figure>
-    <img src="/images/single_board_games/completed_neopixel_game.jpg" alt="Profile Picture" class="floatright" style="width: 60%; height: auto; display: block; margin: 0 auto;">
+    <img src="/test_site/images/single_board_games/completed_neopixel_game.jpg" alt="Profile Picture" class="floatright" style="width: 60%; height: auto; display: block; margin: 0 auto;">
     <figcaption></figcaption>
     </figure>
 {{< /rawhtml >}}

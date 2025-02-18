@@ -21,7 +21,7 @@ In the same maker space that I found the Proxmark, I also found some arduino com
 
 {{< rawhtml >}}
     <figure>
-        <img src="/images/nfc_glove/nfc_module.jpg" alt="Image 1" style="width: 60%; height: auto; display: block; margin: 0 auto;">
+        <img src="/test_site/images/nfc_glove/nfc_module.jpg" alt="Image 1" style="width: 60%; height: auto; display: block; margin: 0 auto;">
         <figcaption></figcaption>
     </figure>
 {{< /rawhtml >}}
@@ -33,13 +33,13 @@ These modules are meant to talk to 13.56 MHz MIFARE cards, and my MIT ID card is
 I built a glove with a hidden card reader. The card reader is on the back of the glove. I imagined that a bad actor could use the glove to brush past someone in the hall and nab their UID. I even added a small motor from a 9g servo motor to vibrate when the glove detected a UID.
 {{< rawhtml >}}
     <figure>
-        <img src="/images/nfc_glove/exposed_glove.jpg" alt="Image 1" style="width: 60%; height: auto; display: block; margin: 0 auto;">
+        <img src="/test_site/images/nfc_glove/exposed_glove.jpg" alt="Image 1" style="width: 60%; height: auto; display: block; margin: 0 auto;">
         <figcaption></figcaption>
     </figure>
 {{< /rawhtml >}}
 {{< rawhtml >}}
     <figure>
-        <img src="/images/nfc_glove/covert_glove.jpg" alt="Image 1" style="width: 60%; height: auto; display: block; margin: 0 auto;">
+        <img src="/test_site/images/nfc_glove/covert_glove.jpg" alt="Image 1" style="width: 60%; height: auto; display: block; margin: 0 auto;">
         <figcaption></figcaption>
     </figure>
 {{< /rawhtml >}}

@@ -12,7 +12,7 @@ categories = [
 This project was made for the De Florez competition. You can check out the poster [here](/images/etch_a_sketch/deflorez_poster.pdf). 
 {{< rawhtml >}}
     <figure>
-        <img src="/images/etch_a_sketch/dog_sunglasses.jpg" alt="Image 1" style="width: 50%; height: auto; display: block; margin: 0 auto;">
+        <img src="/test_site/images/etch_a_sketch/dog_sunglasses.jpg" alt="Image 1" style="width: 50%; height: auto; display: block; margin: 0 auto;">
         <figcaption>Prompt: "A dog with sunglasses"</figcaption>
     </figure>
 {{< /rawhtml >}}
@@ -26,7 +26,7 @@ One of the first challenges was determining how humans would interface with the 
 ## The Pathfinding Algorithm
 {{< rawhtml >}}
     <figure>
-        <img src="/images/etch_a_sketch/example.jpg" alt="Image 1" style="width: 100%; height: auto; display: block; margin: 0 auto;">
+        <img src="/test_site/images/etch_a_sketch/example.jpg" alt="Image 1" style="width: 100%; height: auto; display: block; margin: 0 auto;">
         <figcaption>Trying to go from an image to connected image</figcaption>
     </figure>
 {{< /rawhtml >}}
@@ -36,7 +36,7 @@ The next big challenge was figuring out how to go from an image to a path that y
 _Generate a simple image of the following prompt drawn with a single continuous black line without picking up the pen in a line art style. Prompt: Two stick figures next to each other_
 {{< rawhtml >}}
     <figure>
-        <img src="/images/etch_a_sketch/stick-figures-AI.png" alt="Image 1" style="width: 70%; height: auto; display: block; margin: 0 auto;">
+        <img src="/test_site/images/etch_a_sketch/stick-figures-AI.png" alt="Image 1" style="width: 70%; height: auto; display: block; margin: 0 auto;">
         <figcaption>What we got back from DALL-E</figcaption>
     </figure>
 {{< /rawhtml >}}
@@ -53,7 +53,7 @@ Backtracking is important because without it, when the DFS reaches a dead end, w
 
 {{< rawhtml >}}
     <figure>
-        <img src="/images/etch_a_sketch/backtrack-explanation.png" alt="Image 1" style="width: 70%; height: auto; display: block; margin: 0 auto;">
+        <img src="/test_site/images/etch_a_sketch/backtrack-explanation.png" alt="Image 1" style="width: 70%; height: auto; display: block; margin: 0 auto;">
         <figcaption>With and without backtracking</figcaption>
     </figure>
 {{< /rawhtml >}}
@@ -62,7 +62,7 @@ This was particularly difficult to implement, and the algorithm was not very opt
 
 {{< rawhtml >}}
     <figure>
-        <img src="/images/etch_a_sketch/algo_example.png" alt="Image 1" style="width: 100%; height: auto; display: block; margin: 0 auto;">
+        <img src="/test_site/images/etch_a_sketch/algo_example.png" alt="Image 1" style="width: 100%; height: auto; display: block; margin: 0 auto;">
         <figcaption></figcaption>
     </figure>
 {{< /rawhtml >}}
@@ -71,7 +71,7 @@ This was particularly difficult to implement, and the algorithm was not very opt
 Elijah is a mechanical engineer with scary good CADing skills. He decided to make the drawing robot as sleek as possible and be easily adaptable to any Etch-a-Sketch. You can check out his cad [here](https://cad.onshape.com/documents/db6a0944b9fb6a9b930142fb/w/7058057337ef4993dfcd203d/e/e47bb00960f17f1c9abce0ec?renderMode=0&uiState=671699c2e360df48201650e8). We were originally going to try to use rubber bands as belts, but after realizing that this would lead to sloppy drawings due to the flexibility of the bands, we switched to custom belts we printed from 95A TPU.
 {{< rawhtml >}}
     <figure>
-        <img src="/images/etch_a_sketch/cad.png" alt="Image 1" style="width: 80%; height: auto; display: block; margin: 0 auto;">
+        <img src="/test_site/images/etch_a_sketch/cad.png" alt="Image 1" style="width: 80%; height: auto; display: block; margin: 0 auto;">
         <figcaption></figcaption>
     </figure>
 {{< /rawhtml >}}
@@ -82,7 +82,7 @@ I was responsible for the electrical design and UI. I decided to run everything 
 
 {{< rawhtml >}}
     <figure>
-        <img src="/images/etch_a_sketch/prototype-test.jpg" alt="Image 1" style="width: 80%; height: auto; display: block; margin: 0 auto;">
+        <img src="/test_site/images/etch_a_sketch/prototype-test.jpg" alt="Image 1" style="width: 80%; height: auto; display: block; margin: 0 auto;">
         <figcaption></figcaption>
     </figure>
 {{< /rawhtml >}}
@@ -106,7 +106,7 @@ Now came the hardest part of any project: tying it all together. We started by m
 
 {{< rawhtml >}}
     <figure>
-        <img src="/images/etch_a_sketch/first-test.jpg" alt="Image 1" style="width: 80%; height: auto; display: block; margin: 0 auto;">
+        <img src="/test_site/images/etch_a_sketch/first-test.jpg" alt="Image 1" style="width: 80%; height: auto; display: block; margin: 0 auto;">
         <figcaption></figcaption>
     </figure>
 {{< /rawhtml >}}
@@ -114,7 +114,7 @@ Next we tried to draw some squares.
 {{< rawhtml >}}
 <div style="margin-right: 15px;">
     <video width="400" controls>
-    <source src="/images/etch_a_sketch/squares-test.mp4" type="video/mp4">
+    <source src="/test_site/images/etch_a_sketch/squares-test.mp4" type="video/mp4">
     Your browser does not support the video tag.
     </video>
 </div>
@@ -122,7 +122,7 @@ Next we tried to draw some squares.
 This was promising so we tried to draw a picture of a dog.
 {{< rawhtml >}}
     <figure>
-        <img src="/images/etch_a_sketch/messed-up.jpg" alt="Image 1" style="width: 60%; height: auto; display: block; margin: 0 auto;">
+        <img src="/test_site/images/etch_a_sketch/messed-up.jpg" alt="Image 1" style="width: 60%; height: auto; display: block; margin: 0 auto;">
         <figcaption></figcaption>
     </figure>
 {{< /rawhtml >}}
@@ -131,7 +131,7 @@ This was a bit too abstract for my taste, and we found a bug in the code that tr
 
 {{< rawhtml >}}
     <figure>
-        <img src="/images/etch_a_sketch/first-success.jpg" alt="Image 1" style="width: 60%; height: auto; display: block; margin: 0 auto;">
+        <img src="/test_site/images/etch_a_sketch/first-success.jpg" alt="Image 1" style="width: 60%; height: auto; display: block; margin: 0 auto;">
         <figcaption></figcaption>
     </figure>
 {{< /rawhtml >}}
@@ -139,13 +139,13 @@ This was a bit too abstract for my taste, and we found a bug in the code that tr
 With this success we tried some other prompts
 {{< rawhtml >}}
     <figure>
-        <img src="/images/etch_a_sketch/cat-drums.jpg" alt="Image 1" style="width: 60%; height: auto; display: block; margin: 0 auto;">
+        <img src="/test_site/images/etch_a_sketch/cat-drums.jpg" alt="Image 1" style="width: 60%; height: auto; display: block; margin: 0 auto;">
         <figcaption>Prompt: "A cat playing the drums"</figcaption>
     </figure>
 {{< /rawhtml >}}
 {{< rawhtml >}}
     <figure>
-        <img src="/images/etch_a_sketch/luffy.jpg" alt="Image 1" style="width: 60%; height: auto; display: block; margin: 0 auto;">
+        <img src="/test_site/images/etch_a_sketch/luffy.jpg" alt="Image 1" style="width: 60%; height: auto; display: block; margin: 0 auto;">
         <figcaption>Prompt: "Luffy from One Piece"</figcaption>
     </figure>
 {{< /rawhtml >}}
