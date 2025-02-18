@@ -12,14 +12,14 @@ The inspireation for this project came from my friend from Yale who really likes
 
 {{< rawhtml >}}
     <figure>
-        <img src="/test_site/images/poem_printer/poem_printer_front.jpg" alt="Image 1" style="width: 60%; height: auto; display: block; margin: 0 auto;">
+        <img src="/project_site/images/poem_printer/poem_printer_front.jpg" alt="Image 1" style="width: 60%; height: auto; display: block; margin: 0 auto;">
         <figcaption></figcaption>
     </figure>
 {{< /rawhtml >}}
 
 {{< rawhtml >}}
     <figure>
-        <img src="/test_site/images/poem_printer/poem_printer_back.jpg" alt="Image 1" style="width: 60%; height: auto; display: block; margin: 0 auto;">
+        <img src="/project_site/images/poem_printer/poem_printer_back.jpg" alt="Image 1" style="width: 60%; height: auto; display: block; margin: 0 auto;">
         <figcaption></figcaption>
     </figure>
 {{< /rawhtml >}}
@@ -29,7 +29,7 @@ After that I used a raspberry pi 3A to convert the output into serial so I could
 
 {{< rawhtml >}}
     <figure>
-        <img src="/test_site/images/poem_printer/printed_poems.jpg" alt="Image 1" style="width: 60%; height: auto; display: block; margin: 0 auto;">
+        <img src="/project_site/images/poem_printer/printed_poems.jpg" alt="Image 1" style="width: 60%; height: auto; display: block; margin: 0 auto;">
         <figcaption></figcaption>
     </figure>
 {{< /rawhtml >}}
@@ -37,7 +37,7 @@ After that I used a raspberry pi 3A to convert the output into serial so I could
 After some refining I then printed poems like this.
 {{< rawhtml >}}
     <figure>
-        <img src="/test_site/images/poem_printer/printed_poems_2.jpg" alt="Image 1" style="width: 60%; height: auto; display: block; margin: 0 auto;">
+        <img src="/project_site/images/poem_printer/printed_poems_2.jpg" alt="Image 1" style="width: 60%; height: auto; display: block; margin: 0 auto;">
         <figcaption></figcaption>
     </figure>
 {{< /rawhtml >}}
@@ -45,7 +45,7 @@ I even laser cut out the sheet metal enclosure. It was barely manufacturable and
 
 {{< rawhtml >}}
     <figure>
-        <img src="/test_site/images/poem_printer/real_printer_front.jpg" alt="Image 1" style="width: 60%; height: auto; display: block; margin: 0 auto;">
+        <img src="/project_site/images/poem_printer/real_printer_front.jpg" alt="Image 1" style="width: 60%; height: auto; display: block; margin: 0 auto;">
         <figcaption></figcaption>
     </figure>
 {{< /rawhtml >}}
