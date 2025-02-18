@@ -111,11 +111,12 @@ Now came the hardest part of any project: tying it all together. We started by m
     </figure>
 {{< /rawhtml >}}
 Next we tried to draw some squares.
+
 {{< rawhtml >}}
-<div style="margin-right: 15px;">
+<div style="display: flex; justify-content: center; margin-right: 15px;">
     <video width="400" controls>
-    <source src="/project_site/images/etch_a_sketch/squares-test.mp4" type="video/mp4">
-    Your browser does not support the video tag.
+        <source src="/project_site/images/etch_a_sketch/squares-test.mp4" type="video/mp4">
+        Your browser does not support the video tag.
     </video>
 </div>
 {{< /rawhtml >}}
